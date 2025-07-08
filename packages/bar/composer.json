@@ -1,5 +1,6 @@
 {
     "name": "loicjazon/bar",
+    "description": "",
     "type": "library",
     "license": "MIT",
     "autoload": {
