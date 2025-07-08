@@ -1,0 +1,18 @@
+{
+    "name": "loicjazon/foo",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Loicjazon\\Foo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Loïc JAZON",
+            "email": "loicjazon@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
