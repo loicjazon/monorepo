@@ -8,10 +8,18 @@
             "email": "loicjazon@gmail.com"
         }
     ],
-    "require": {
-    },
     "require-dev": {
         "symplify/monorepo-builder": "^11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Loicjazon\\Bar\\": "packages/bar/src/",
+            "Loicjazon\\Foo\\": "packages/foo/src/"
+        }
+    },
+    "replace": {
+        "loicjazon/bar": "self.version",
+        "loicjazon/foo": "self.version"
     },
     "minimum-stability": "stable"
 }
