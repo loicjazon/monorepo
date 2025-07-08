@@ -1,0 +1,15 @@
+{
+    "name": "loicjazon/monorepo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Loïc JAZON",
+            "email": "loicjazon@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "symplify/monorepo-builder": "^11.2"
+    }
+}
