@@ -17,9 +17,5 @@
             "Loicjazon\\Foo\\": "packages/foo/src/"
         }
     },
-    "replace": {
-        "loicjazon/bar": "self.version",
-        "loicjazon/foo": "self.version"
-    },
     "minimum-stability": "stable"
 }
