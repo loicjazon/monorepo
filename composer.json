@@ -18,8 +18,8 @@
         }
     },
     "replace": {
-        "loicjazon/bar": "8.0.0",
-        "loicjazon/foo": "8.0.0"
+        "loicjazon/bar": "8.0.1",
+        "loicjazon/foo": "8.0.1"
     },
     "minimum-stability": "stable"
 }
