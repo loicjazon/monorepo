@@ -1,13 +1,13 @@
 {
     "name": "loicjazon/monorepo",
     "license": "MIT",
-    "type": "library",
     "authors": [
         {
             "name": "Loïc JAZON",
             "email": "loicjazon@gmail.com"
         }
     ],
+    "type": "library",
     "require-dev": {
         "symplify/monorepo-builder": "^11.2"
     },
@@ -18,8 +18,8 @@
         }
     },
     "replace": {
-        "loicjazon/bar": "self.version",
-        "loicjazon/foo": "self.version"
+        "loicjazon/bar": "8.0.0",
+        "loicjazon/foo": "8.0.0"
     },
     "minimum-stability": "stable"
 }
