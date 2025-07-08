@@ -1,21 +1,25 @@
 {
     "name": "loicjazon/monorepo",
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "Loïc JAZON",
             "email": "loicjazon@gmail.com"
         }
     ],
-    "type": "library",
     "require-dev": {
         "symplify/monorepo-builder": "^11.2"
     },
+    "replace": {
+        "loicjazon/bar": "self.version",
+        "loicjazon/foo": "self.version"
+    },
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Loicjazon\\Bar\\": "packages/bar/src/",
             "Loicjazon\\Foo\\": "packages/foo/src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
