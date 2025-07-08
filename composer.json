@@ -1,15 +1,30 @@
 {
     "name": "loicjazon/monorepo",
-    "type": "library",
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "Loïc JAZON",
             "email": "loicjazon@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2",
+        "symfony/dependency-injection": "^5.0",
+        "symfony/http-kernel": "^5.0"
+    },
     "require-dev": {
         "symplify/monorepo-builder": "^11.2"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "YourMonorepo\\FirstPackage\\": "packages/first-package/src",
+            "YourMonorepo\\SecondPackage\\": "packages/second-package/src"
+        }
+    },
+    "replace": {
+        "your-monorepo/first-package": "self.version",
+        "your-monorepo/second-package": "self.version"
+    },
+    "minimum-stability": "stable"
 }
