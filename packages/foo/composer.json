@@ -13,6 +13,5 @@
             "email": "loicjazon@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {}
+    "minimum-stability": "stable"
 }
